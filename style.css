@@ -324,7 +324,9 @@ body {
     background-color: #f89a9a;
 }
 
-.back-bar {
+
+
+.back-bar-소주 {
     position: absolute;
     top: 0;
     left: 0;
@@ -332,6 +334,36 @@ body {
     border-radius: 10px;
     width: 100%;
     background-color: rgba(117, 204, 84, 0.2);
+}
+
+.back-bar-맥주{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 2rem;
+    border-radius: 10px;
+    width: 100%;
+    background-color: #fbe1c5;
+}
+
+.back-bar-와인 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 2rem;
+    border-radius: 10px;
+    width: 100%;
+    background-color: #f4ddfd;
+}
+
+.back-bar-막걸리 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 2rem;
+    border-radius: 10px;
+    width: 100%;
+    background-color: #fdecf3;
 }
 
 .percent-text {
