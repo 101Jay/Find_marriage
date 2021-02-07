@@ -1,0 +1,406 @@
+@import url(//fonts.googleapis.com/earlyaccess/hanna.css);
+
+.hanna * {
+ font-family: 'Hanna', fantasy;
+}
+
+@font-face {
+    font-family: 'BMEULJIRO';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_twelve@1.0/BMEULJIRO.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.title{
+    font-family : BMEULJIRO;
+}
+
+body {
+    font-family: Hanna, sans-serif;
+    background-color: #ffffff;
+}
+
+.file-upload {
+    padding: 5% 0%;
+    margin: 0 auto;
+    border-radius: 10px;
+    border: solid 1.5px #f6f7fa;
+    background-color: #d9eafc;
+    /*#f6f7fa*/
+}
+
+.file-upload-btn {
+    width: 100%;
+    margin: 0;
+    color: #fff;
+    background: #1fb264;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    border-bottom: 4px solid #15824b;
+    transition: all 0.2s ease;
+    outline: none;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.file-upload-btn:hover {
+    background: #1aa059;
+    color: #ffffff;
+    transition: all 0.2s ease;
+    cursor: pointer;
+}
+
+.file-upload-btn:active {
+    border: 0;
+    transition: all 0.2s ease;
+}
+
+.file-upload-content {
+    display: none;
+    text-align: center;
+}
+
+.file-upload-input {
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    outline: none;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.image-upload-wrap {
+    width: 60%;
+    margin: 0 auto;
+    border: 4px dashed #1fb264;
+    position: relative;
+    object-fit: contain;
+    border-radius: 10px;
+    border: dashed 1.5px #35465d;
+    background-color: #ffffff;
+}
+
+.image-dropping,
+.image-upload-wrap:hover {
+    border: dashed 1.5px #35465d;
+    background-color: #bfc9ca;
+}
+
+.image-title-wrap {
+    padding: 0 15px 15px 15px;
+    color: #222;
+}
+
+.drag-text {
+    text-align: center;
+}
+
+.drag-text h3 {
+    width: 40%;
+    font-weight: 100;
+    text-transform: uppercase;
+    color: #000000;
+    font-family: NanumSquareR;
+    font-size: 1.3rem;
+    line-height: 1.53;
+    text-align: center;
+    color: #35465d;
+    margin: 0 auto;
+}
+
+.file-upload-image {
+    max-height: 300px;
+    max-width: 300px;
+    margin-bottom: 30px;    
+    padding: 20px;
+}
+
+.remove-image {
+    width: 200px;
+    margin: 0;
+    color: #fff;
+    background: #cd4535;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    border-bottom: 4px solid #b02818;
+    transition: all 0.2s ease;
+    outline: none;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-family: BMEULJIRO;
+}
+
+.remove-image:hover {
+    background: #c13b2a;
+    color: #ffffff;
+    transition: all 0.2s ease;
+    cursor: pointer;
+}
+
+.remove-image:active {
+    border: 0;
+    transition: all 0.2s ease;
+}
+
+.nav-distance {
+    padding: 2.1% 7.7%;
+}
+
+.navbar-light .navbar-brand {
+    font-family: 'Hanna',NanumSquareR;
+    line-height: 1.68;
+    text-align: left;
+    color: #35465d;
+}
+
+.navbar-light .navbar-toggler {
+    border-color: #ffffff;
+}
+
+.section {
+    margin-top: 100px;
+}
+
+.title {
+    line-height: 1.67;
+    text-align: center;
+    color: #35465d;
+}
+
+.subtitle {
+    font-size: 1.3rem;
+    line-height: 3;
+    text-align: center;
+    color: #35465d;
+}
+
+/* On screens that are 600px or less, set the background color to olive */
+@media screen and (max-width: 600px) {
+    html {
+        font-size: 10px;
+    }
+    .navbar-brand {
+        font-size: 1.6rem;
+    }
+}
+
+.youtube-link {
+    font-size: 1.2rem;
+    line-height: 1.71;
+    text-align: center;
+    color: #f73737;
+    text-decoration: underline;
+}
+
+.youtube-link:hover {
+    font-size: 1.3rem;
+    line-height: 1.71;
+    text-align: center;
+    color: #f73737;
+    text-decoration: underline;
+}
+
+.youtube-icon {
+    width: 5rem;
+}
+
+.upload {
+    width: 20%;
+}
+
+.upload-text {
+    font-size: 1.5rem;
+}
+
+.result-message{
+    font-family: BMEULJIRO;
+    font-size : 1.5rem;
+    font-weight : 500
+}
+'BMDOHYEON'
+@media screen and (max-width:600px){
+    .result-message{
+        font-size: 15px;
+    }
+}
+
+/* Horizontal Bar Graph */
+
+.hGraph ul {
+    margin: 0 10rem 0 10rem;
+    padding: 1px 0 0 0;
+    font-size: 13px;
+    font-family: BMEULJIRO, Hanna, Tahoma, Geneva, sans-serif;
+    list-style: none;
+}
+.hGraph li {
+    position: relative;
+    margin: 10px 0;
+    white-space: nowrap;
+    vertical-align: top;
+    text-align: right;
+}
+.hGraph .gTerm {
+    width: 10%;
+    text-align: left;
+    height: 2rem;
+    font-size:larger;
+}
+
+@media screen and (min-width: 1200px){
+    .hGraph ul{
+        margin: 0 20rem 0 20rem;
+    }
+}
+
+.bar-container {
+    height: 2.7rem;
+}
+
+.position-relative {
+    position: relative!important;
+}
+
+#label-container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 700px){
+    .hGraph .gTerm {
+    width: 30%;
+    text-align: left;
+    height: 2rem;
+    }
+}
+
+@media screen and (max-width: 400px){
+    .hGraph .gTerm {
+        width: 50%;
+        text-align: left;
+        height: 2rem;
+        font-size:inherit;
+    }
+}
+
+
+.소주 .gBar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 2rem;
+    border-radius: 10px;
+    background-color: #7bd16a;
+}
+
+.맥주 .gBar{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 2rem;
+    border-radius: 10px;
+    background-color: #db8904;
+}
+
+.와인 .gBar{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 2rem;
+    border-radius: 10px;
+    background-color: #ce6df2;
+}
+
+.막걸리 .gBar{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 2rem;
+    border-radius: 10px;
+    background-color: #f89a9a;
+}
+
+.back-bar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 2rem;
+    border-radius: 10px;
+    width: 100%;
+    background-color: rgba(117, 204, 84, 0.2);
+}
+
+.percent-text {
+    font-size: 1rem;
+}
+
+
+/*loading Created by @lukehaas
+https://projects.lukehaas.me/css-loaders/*/
+.loader {
+  font-size: 10px;
+  margin: 50px auto;
+  text-indent: -9999em;
+  width: 8em;
+  height: 8em;
+  border-radius: 50%;
+  background: #ffffff;
+  background: -moz-linear-gradient(left, #ffffff 10%, rgba(255, 255, 255, 0) 42%);
+  background: -webkit-linear-gradient(left, #ffffff 10%, rgba(255, 255, 255, 0) 42%);
+  background: -o-linear-gradient(left, #ffffff 10%, rgba(255, 255, 255, 0) 42%);
+  background: -ms-linear-gradient(left, #ffffff 10%, rgba(255, 255, 255, 0) 42%);
+  background: linear-gradient(to right, #ffffff 10%, rgba(255, 255, 255, 0) 42%);
+  position: relative;
+  -webkit-animation: load3 1.4s infinite linear;
+  animation: load3 1.4s infinite linear;
+  -webkit-transform: translateZ(0);
+  -ms-transform: translateZ(0);
+  transform: translateZ(0);
+}
+.loader:before {
+  width: 50%;
+  height: 50%;
+  background: #ffffff;
+  border-radius: 100% 0 0 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  content: '';
+}
+.loader:after {
+  background: #d9eafc;
+  width: 75%;
+  height: 75%;
+  border-radius: 50%;
+  content: '';
+  margin: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+@-webkit-keyframes load3 {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+@keyframes load3 {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
